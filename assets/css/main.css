@@ -1,0 +1,400 @@
+* {
+  font-family: "interregular";
+}
+
+.div-gaps {
+  padding: 50px 0;
+}
+
+.sections-gaps {
+  padding: 70px 0;
+}
+
+.cards-gap {
+  padding: 30px 0;
+}
+
+body nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px;
+  background-color: #282828;
+  color: white;
+}
+body nav .brand-title {
+  font-family: "korner_deli_nfregular";
+  font-size: 30px;
+}
+body nav .navbar-links ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+body nav .navbar-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+body nav .navbar-links ul li a:hover {
+  transition: 0.3s;
+  color: aquamarine;
+}
+body nav .navbar-links ul li a.active {
+  transition: 0.3s;
+  color: aquamarine;
+}
+
+.bilboard {
+  background-color: #282828;
+  color: white;
+  align-content: center;
+  overflow-x: hidden;
+}
+.bilboard .herotxt-grp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bilboard .herotxt-grp .hero-icons {
+  width: 40px;
+  display: flex;
+  gap: 16px;
+  color: aquamarine;
+}
+.bilboard .herotxt-grp span {
+  color: aquamarine;
+  font-family: "sdglitchdemoregular";
+}
+.bilboard .herotxt-grp p {
+  font-size: 30px;
+}
+.bilboard .herotxt-grp h1 {
+  font-size: 70px;
+}
+.bilboard .hero-img {
+  height: 731px;
+}
+.bilboard .hero-main {
+  display: flex;
+  justify-content: end;
+}
+
+.about-me {
+  background-color: #282828;
+  padding: 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.about-me .items-alll {
+  display: flex;
+  align-items: end;
+}
+.about-me h2 {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  align-items: center;
+}
+.about-me p {
+  font-size: 30px;
+  color: white;
+}
+.about-me p span {
+  color: aquamarine;
+  font-family: "sdglitchdemoregular";
+}
+
+.about-me-skills {
+  background-color: #282828;
+  padding: 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.about-me-skills .brain-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-me-skills .my-aboutimg {
+  height: 400px;
+}
+.about-me-skills .items-alll {
+  display: flex;
+  align-items: end;
+}
+.about-me-skills h3 {
+  position: absolute;
+  color: white;
+  width: 45%;
+  font-size: 50px;
+}
+.about-me-skills p {
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+}
+.about-me-skills a {
+  color: #4BD6C5;
+  text-decoration: none;
+}
+
+.section-padding {
+  background-color: #282828;
+  padding: 100px;
+}
+
+.resume, .resume-all {
+  background-color: #282828;
+  /*  padding: 100px;
+      height: 100vh; */
+  /* display: flex; */
+  align-items: center;
+  width: auto;
+}
+.resume .card, .resume-all .card {
+  background-color: #3A3A3A;
+  color: white;
+  padding: 30px;
+  width: 95%;
+}
+.resume .card span, .resume-all .card span {
+  color: aquamarine;
+}
+.resume .items-alll, .resume-all .items-alll {
+  display: flex;
+  align-items: end;
+}
+.resume h2, .resume-all h2 {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  align-items: center;
+}
+.resume h3, .resume-all h3 {
+  font-size: 30px;
+  color: white;
+}
+.resume p, .resume-all p {
+  font-size: 30px;
+  color: white;
+}
+.resume p span, .resume-all p span {
+  color: aquamarine;
+  font-family: "sdglitchdemoregular";
+}
+
+.work-section {
+  background-color: #282828;
+  padding: 100px;
+  align-items: center;
+}
+.work-section .first-grp {
+  margin-bottom: 30px;
+}
+.work-section .first-grp h4 {
+  color: white;
+  text-align: center;
+}
+.work-section .first-grp p {
+  color: white;
+  text-align: center;
+}
+.work-section .first-grp .imgs-1 {
+  width: 100%;
+  height: 100%;
+}
+.work-section .first-grp .imgs-1:hover {
+  background-color: aquamarine;
+}
+.work-section .projects-nav ul {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.work-section .projects-nav ul li a.active {
+  color: #4BD6C5;
+}
+.work-section .items-alll {
+  display: flex;
+  align-items: end;
+}
+.work-section li a {
+  color: grey;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+.work-section li a:hover {
+  color: #4BD6C5;
+}
+.work-section h2 {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  align-items: center;
+}
+.work-section h3 {
+  font-size: 50px;
+  color: white;
+}
+.work-section p {
+  font-size: 30px;
+  color: white;
+}
+.work-section p span {
+  color: aquamarine;
+  font-family: "sdglitchdemoregular";
+}
+.work-section .sections-gap button {
+  position: relative;
+  padding: 5px 17px 5px 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+}
+.work-section .gallery-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blogs, .blog {
+  background-color: #282828;
+  /*     padding: 100px;
+      height: 100vh; */
+  /* display: flex; */
+  align-items: center;
+  width: auto;
+}
+.blogs .card, .blog .card {
+  background-color: #3A3A3A;
+  color: white;
+  padding: 30px;
+  width: 95%;
+}
+.blogs .card span, .blog .card span {
+  color: aquamarine;
+  font-family: "sdglitchdemoregular";
+}
+.blogs .items-alll, .blog .items-alll {
+  display: flex;
+  align-items: end;
+}
+.blogs h2, .blog h2 {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  align-items: center;
+}
+.blogs h3, .blog h3 {
+  font-size: 30px;
+  color: white;
+}
+.blogs p, .blog p {
+  font-size: 30px;
+  color: white;
+}
+.blogs p span, .blog p span {
+  color: aquamarine;
+  font-family: "sdglitchdemoregular";
+}
+
+.contact-form {
+  background-color: #282828;
+  padding: 120px;
+}
+.contact-form input[type=text], .contact-form select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  font-size: larger;
+  display: inline-block;
+  border: none;
+  background-color: #3A3A3A;
+  color: white;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.contact-form textarea {
+  border: none;
+  background-color: #3A3A3A;
+  color: white;
+  font-size: larger;
+  border-radius: 15px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 100%;
+  height: 150px;
+}
+.contact-form .btn3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 45px;
+  position: relative;
+  top: 20px;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bolder;
+  background-color: #4BD6C5;
+  border: none;
+  border-radius: 15px;
+}
+.contact-form .btn3 span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-section {
+  background-color: #252525;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 50px;
+}
+.footer-section .brand-title {
+  font-family: "korner_deli_nfregular";
+  font-size: 30px;
+  color: white;
+}
+.footer-section p {
+  color: white;
+}
+.footer-section .footer-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.footer-section .footer-icons .icon1 {
+  width: 30px;
+}
+
+.services-section {
+  padding: 120px;
+  background-color: #282828;
+}
+.services-section .card {
+  background-color: #3A3A3A;
+  color: white;
+  text-align: center;
+  border: none;
+}
+.services-section .card h4 {
+  font-weight: 900;
+  color: #4BD6C5;
+}
+.services-section .card-header {
+  border: none;
+}
+.services-section .card-header .brushimg {
+  width: 90px;
+}/*# sourceMappingURL=main.css.map */
